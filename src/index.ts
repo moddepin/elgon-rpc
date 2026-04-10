@@ -2,6 +2,13 @@ import express from "express";
 import cors from "cors";
 import { quotesRouter } from "./routes/quotes";
 import { searchRouter } from "./routes/search";
+import { optionsRouter } from "./routes/options";
+import { predictionsRouter } from "./routes/predictions";
+import { keysRouter } from "./routes/keys";
+import { checkoutRouter } from "./routes/checkout";
+import { webhookRouter } from "./routes/webhook";
+import { connectRouter } from "./routes/connect";
+import { demoRouter } from "./routes/demo";
 import { healthRouter } from "./routes/health";
 import { errorHandler } from "./middleware/errors";
 import { rateLimiter } from "./middleware/rateLimit";
@@ -14,14 +21,30 @@ app.use(cors());
 app.use(express.json());
 app.use(rateLimiter);
 
+// Public
+app.use("/api/health", healthRouter);
+app.use("/api/demo", demoRouter);
+
+// API v1
 app.use("/api/v1/quotes", quotesRouter);
 app.use("/api/v1/search", searchRouter);
-app.use("/api/health", healthRouter);
+app.use("/api/v1/options", optionsRouter);
+app.use("/api/v1/predictions", predictionsRouter);
+app.use("/api/keys", keysRouter);
+
+// Billing
+app.use("/api/checkout", checkoutRouter);
+app.use("/api/checkout/webhook", webhookRouter);
+
+// Brokerage connect
+app.use("/api/connect", connectRouter);
 
 app.use(errorHandler);
 
-app.listen(PORT, () => {
-  logger.info(`Elgon API listening on :${PORT}`);
-});
+if (process.env.NODE_ENV !== "test") {
+  app.listen(PORT, () => {
+    logger.info(`Elgon API listening on :${PORT}`);
+  });
+}
 
 export { app };
