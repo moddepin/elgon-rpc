@@ -21,3 +21,5 @@ setInterval(() => {
     if (now > entry.expiresAt) cache.delete(key);
   }
 }, 60_000);
+
+// add CORS config for custom domains
