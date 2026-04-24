@@ -18,3 +18,5 @@ searchRouter.get("/", validateApiKey, async (req: Request, res: Response) => {
     res.status(500).json({ error: "Search failed" });
   }
 });
+
+// use structured JSON format
