@@ -42,3 +42,5 @@ describe("GET /api/v1/quotes", () => {
     expect(res.status).toBe(400);
   });
 });
+
+// trim whitespace from query parameter
