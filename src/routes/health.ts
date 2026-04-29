@@ -13,3 +13,5 @@ healthRouter.get("/", (_req, res) => {
 healthRouter.get("/ready", (_req, res) => {
   res.json({ ready: true });
 });
+
+// fix typo in quickstart guide
