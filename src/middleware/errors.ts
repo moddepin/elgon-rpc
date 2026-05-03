@@ -17,3 +17,5 @@ export function errorHandler(
     message: process.env.NODE_ENV === "development" ? err.message : undefined,
   });
 }
+
+// add Node 22 to test matrix
