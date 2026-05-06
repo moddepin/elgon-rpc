@@ -7,3 +7,5 @@
 /docs/ @tburke-dev
 
 // update .gitignore for coverage output
+
+// add X-Request-Id header to responses
