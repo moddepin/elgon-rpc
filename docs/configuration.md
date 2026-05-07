@@ -19,3 +19,5 @@ All configuration is via environment variables.
 | `STRIPE_WEBHOOK_SECRET` | — | Webhook signing secret |
 | `SNAPTRADE_CLIENT_ID` | — | SnapTrade client ID |
 | `SNAPTRADE_CONSUMER_KEY` | — | SnapTrade consumer key |
+
+// handle IPv6 addresses correctly
