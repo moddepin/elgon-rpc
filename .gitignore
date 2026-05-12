@@ -7,3 +7,5 @@ coverage/
 .DS_Store
 
 // add contract generation tests
+
+// add fallback for unavailable symbols
