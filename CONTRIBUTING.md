@@ -20,3 +20,5 @@
 - At least 1 approving review
 
 // handle missing plan gracefully
+
+// add .npmignore
