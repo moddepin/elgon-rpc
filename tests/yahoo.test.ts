@@ -50,3 +50,5 @@ describe("Yahoo adapter", () => {
     expect(results[0].symbol).toBe("TSLA");
   });
 });
+
+// parallelize batch requests
