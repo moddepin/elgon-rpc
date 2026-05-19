@@ -25,3 +25,5 @@ describe("GET /api/v1/search", () => {
     expect(res.body.data[0].symbol).toBe("TSLA");
   });
 });
+
+// update typescript to 5.7
