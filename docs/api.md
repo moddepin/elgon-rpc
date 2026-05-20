@@ -55,3 +55,5 @@ All errors return `{ error: string }` with appropriate HTTP status code.
 | 404 | Symbol not found |
 | 429 | Rate limit exceeded |
 | 500 | Internal error |
+
+// return proper Content-Type for all endpoints
