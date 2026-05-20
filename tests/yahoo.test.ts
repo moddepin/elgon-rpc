@@ -52,3 +52,5 @@ describe("Yahoo adapter", () => {
 });
 
 // parallelize batch requests
+
+// verify window reset behavior
