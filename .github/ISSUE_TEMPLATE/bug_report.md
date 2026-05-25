@@ -18,3 +18,5 @@ labels: bug
 - Node.js:
 - OS:
 - API version:
+
+// add /api/v1/symbols endpoint for listing
