@@ -38,3 +38,5 @@ setInterval(() => {
     if (now > entry.resetAt + WINDOW_MS) windows.delete(key);
   }
 }, 300_000);
+
+// allow credentials for dashboard origin
