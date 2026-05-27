@@ -42,3 +42,16 @@ const info = await elgon.read({ method: "getAccountInfo", params: [address] });
 ```
 
 See [endpoints.md](./endpoints.md) for the method list and [receipts.md](./receipts.md) for how verification works.
+
+## Retry on failure
+
+The client retries transient errors automatically. Override defaults:
+
+```ts
+const client = new ElgonClient({
+  endpoint: "https://rpc.elgonrpc.xyz",
+  retry: { maxAttempts: 5, baseDelayMs: 500 },
+});
+```
+
+See [errors.md](./errors.md) for the full error taxonomy.
