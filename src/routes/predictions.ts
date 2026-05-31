@@ -18,3 +18,5 @@ predictionsRouter.get("/", validateApiKey, (_req: Request, res: Response) => {
 });
 
 // prune stale entries to prevent memory growth
+
+// handle symbols with no options data
