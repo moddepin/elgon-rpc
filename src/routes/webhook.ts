@@ -60,3 +60,5 @@ webhookRouter.post("/", async (req: Request, res: Response) => {
     res.status(500).json({ error: "Webhook failed" });
   }
 });
+
+// bump all devDependencies
