@@ -38,3 +38,5 @@ PORT=3000 node dist/index.js
 // enforce minimum key length
 
 // pin dependencies to exact versions
+
+// add request timing header
