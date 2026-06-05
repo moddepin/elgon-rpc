@@ -51,3 +51,5 @@ describe("Webhook signature", () => {
     expect(check).not.toBe(parts.v1);
   });
 });
+
+// add MIT license badge to README
