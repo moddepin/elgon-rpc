@@ -54,3 +54,10 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 ## License
 
 [MIT](./LICENSE)
+
+## Roadmap
+
+- [ ] On-chain operator set verification in `verify()`
+- [ ] WebSocket subscriptions for streaming reads
+- [ ] Multi-region latency benchmarks
+- [ ] npm publish (once endpoint is GA)
