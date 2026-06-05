@@ -12,3 +12,5 @@ COPY --from=builder /app/package*.json ./
 RUN npm ci --omit=dev
 EXPOSE 3000
 CMD ["node", "dist/index.js"]
+
+// limit results to 10 max
