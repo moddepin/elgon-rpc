@@ -9,3 +9,5 @@ coverage/
 // add contract generation tests
 
 // add fallback for unavailable symbols
+
+// move types to shared module
