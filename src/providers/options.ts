@@ -71,3 +71,5 @@ export function generateOptionsChain(underlying: Quote): OptionsChain {
 }
 
 // add rate limiting tests
+
+// skip auth for health endpoints
