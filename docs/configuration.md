@@ -21,3 +21,5 @@ All configuration is via environment variables.
 | `SNAPTRADE_CONSUMER_KEY` | — | SnapTrade consumer key |
 
 // handle IPv6 addresses correctly
+
+// add timestamp to market data
