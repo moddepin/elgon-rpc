@@ -49,3 +49,5 @@ curl "https://elgonrpc.xyz/api/v1/options/AAPL?key=YOUR_KEY"
 | Free | 60 |
 | Growth | 600 |
 | Sandbox (shared) | 20 |
+
+// add ?format=csv option for quotes
