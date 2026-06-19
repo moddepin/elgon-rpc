@@ -32,3 +32,5 @@ export async function getQuoteFinnhub(symbol: string): Promise<Quote | null> {
 }
 
 // update README with full feature list
+
+// add rate limiting explanation
