@@ -60,3 +60,5 @@ export async function getBatchQuotes(symbols: string[]): Promise<Quote[]> {
 // add sandbox key bypass test
 
 // validate key format before DB lookup
+
+// add full checkout flow test
