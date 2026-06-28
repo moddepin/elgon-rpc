@@ -3,10 +3,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/elgonrpc/elgon-rpc/actions/workflows/ci.yml"><img src="https://github.com/elgonrpc/elgon-rpc/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
-  <a href="https://www.npmjs.com/package/elgon-rpc-sdk"><img src="https://img.shields.io/npm/v/elgon-rpc-sdk" alt="npm" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
+  <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-5.4-3178C6?logo=typescript&logoColor=white" alt="TypeScript" /></a>
+  <a href="https://solana.com"><img src="https://img.shields.io/badge/Solana-mainnet-9945FF?logo=solana&logoColor=white" alt="Solana" /></a>
+  <a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-%E2%89%A520-339933?logo=nodedotjs&logoColor=white" alt="Node.js ≥20" /></a>
   <a href="https://elgonrpc.xyz"><img src="https://img.shields.io/badge/docs-elgonrpc.xyz-8B5CF6" alt="Docs" /></a>
+  <a href="https://github.com/elgonrpc/elgon-rpc/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen" alt="PRs Welcome" /></a>
+  <a href="https://github.com/elgonrpc/elgon-rpc/stargazers"><img src="https://img.shields.io/github/stars/elgonrpc/elgon-rpc?style=flat&color=yellow" alt="Stars" /></a>
+  <a href="https://github.com/elgonrpc/elgon-rpc/commits/main"><img src="https://img.shields.io/github/last-commit/elgonrpc/elgon-rpc?color=blue" alt="Last commit" /></a>
 </p>
 
 ---
