@@ -1,11 +1,5 @@
 <p align="center">
-  <img src="https://elgonrpc.xyz/assets/elgon-logo.svg" alt="Elgon" width="120" />
-</p>
-
-<h1 align="center">Elgon RPC SDK</h1>
-
-<p align="center">
-  The read layer for Solana — verifiable, geo-distributed read-RPC with signed proof-of-serve receipts.
+  <a href="https://elgonrpc.xyz"><img src="./assets/banner.jpg" alt="Elgon RPC" /></a>
 </p>
 
 <p align="center">
