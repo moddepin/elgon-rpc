@@ -88,3 +88,5 @@ export async function verifyReceipt(
 }
 
 export type { Receipt };
+
+// update env example file
