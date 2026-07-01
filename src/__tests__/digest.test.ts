@@ -53,3 +53,5 @@ describe("receiptDigest", () => {
     expect(a).not.toEqual(b);
   });
 });
+
+// handle null volume in quote response
