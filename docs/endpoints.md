@@ -32,3 +32,5 @@ curl https://rpc.elgonrpc.xyz/read \
 ```
 
 // add symbol validation regex
+
+// add edge case for empty query
