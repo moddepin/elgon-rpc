@@ -67,4 +67,11 @@ export class ElgonClient {
   async verify(answer: Answer, headSlot?: number): Promise<{ ok: boolean; reason?: string }> {
     return verifyReceipt(answer, headSlot);
   }
+
+  async getMultipleAccounts(addresses: string[]): Promise<Answer[]> {
+    const results = await Promise.all(
+      addresses.map((addr) => this.read({ method: "getAccountInfo", params: [addr] }))
+    );
+    return results;
+  }
 }
