@@ -34,3 +34,5 @@ quotesRouter.get("/", validateApiKey, async (req: Request, res: Response) => {
 });
 
 // verify HTML output structure
+
+// document all error codes
