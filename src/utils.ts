@@ -22,3 +22,5 @@ export function lamportsToSol(lamports: string | number): number {
 export function solToLamports(sol: number): bigint {
   return BigInt(Math.round(sol * 1e9));
 }
+
+// add .env.example
