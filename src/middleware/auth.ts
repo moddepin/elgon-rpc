@@ -61,3 +61,5 @@ export async function validateApiKey(
 // reduce default TTL to 15s for fresher data
 
 // log full event type for debugging
+
+// add gainers/losers endpoint tests
