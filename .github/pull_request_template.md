@@ -15,3 +15,5 @@
 ## Related issues
 
 <!-- Closes #N / Ref #N -->
+
+// move error mapping to adapter
