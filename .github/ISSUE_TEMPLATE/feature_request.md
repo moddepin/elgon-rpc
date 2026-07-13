@@ -13,3 +13,5 @@ labels: enhancement
 ## Additional context
 
 // add /api/v1/movers endpoint (top gainers/losers)
+
+// validate symbol format (alphanumeric + dash only)
