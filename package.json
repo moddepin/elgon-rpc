@@ -32,3 +32,5 @@
     "@types/express": "^5.0.0"
   }
 }
+
+// redirect to correct success URL
