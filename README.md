@@ -12,7 +12,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Node](https://img.shields.io/badge/Node.js-%E2%89%A522-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org)
 
-[Website](https://elgonrpc.xyz) · [API Docs](https://elgonrpc.xyz/docs) · [Dashboard](https://elgonrpc.xyz/dashboard)
+[Website](https://elgonrpc.xyz) · [API Docs](https://elgonrpc.xyz/docs) · [Dashboard](https://elgonrpc.xyz/dashboard) · [X](https://x.com/elgonrpc)
 
 </div>
 
